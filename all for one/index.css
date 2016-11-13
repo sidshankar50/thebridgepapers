@@ -1,0 +1,455 @@
+[class*='col-'] {
+    padding: 12px;
+}
+
+#tbp{
+  min-height: 100%;
+  min-width: 100%;
+  background-image: url("Map.jpg");
+  background-attachment: fixed;
+  color: black;
+}
+
+.instru{
+    background-color: ;
+    color: #004B00;
+    font-size: 24pt;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    font-family: monospace;
+    margin-bottom: 24px;
+    border-bottom: 10px solid;
+}
+
+.blockQuote{
+  background-image: url("Map.jpg");
+  color: black;
+  font-size: 24pt;
+  font-weight: bold;
+  padding: 20px;
+  font-family: ;
+  margin-bottom: 24px;
+  border-bottom: 10px solid black;
+}
+
+.blockQuote2{
+  background-image: url("Map2.jpg");
+  color: black;
+  font-size: 24pt;
+  font-weight: bold;
+  padding: 20px;
+  text-align: right;
+  margin-bottom: 24px;
+  border-bottom: 10px solid black;
+}
+
+.afo {
+  background-color: #D5FDD5;
+  height: 168px;
+  padding: 20px;
+  line-height: 140px;
+  color: black;
+  text-align: center;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 24pt;
+
+}
+
+.afoselect{
+  background-color: #004B00;
+  height: 168px;
+  padding: 20px;
+  line-height: 140px;
+  color: white;
+  text-align: center;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 24pt;
+}
+
+#toprightmain{
+  background-color: #004B00;
+  padding: 5%;
+  margin-top: 10px;
+  text-align: center-left;
+  color: white;
+  width: 100%;
+  height: 555px;
+}
+
+#toprightby{
+  padding: 5%;
+  margin-top: 10px;
+  text-align: right;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+#topright{
+  padding: 5%;
+  margin-top: 10px;
+  text-align: center-left;
+  color: white;
+  font-family: Butler;
+}
+
+#maintext1{
+  font-family: Georgia;
+  text-align: left;
+  padding: 0%;
+  font-size: 16pt;
+}
+
+#maintext2{
+  font-family: Georgia;
+  text-align: left;
+  padding: 0%;
+  font-size: 16pt;
+}
+
+#enter {
+  height: 34px;
+  color: black;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.enter{
+  height: 34px;
+  color: black;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.topbar{
+  padding: 15px;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+}
+
+#pageup {
+  height: 34px;
+  color: #004B00;
+  font-size: 24pt;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.rwd-line{
+  display: block;
+}
+
+#pagedown {
+  height: 34px;
+  color: black;
+  font-size: 24pt;
+  text-align: center;
+  bottom: 6px;
+}
+
+.info1{
+  font-size: 18pt;
+  font-family: Arial;
+  color: black;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@font-face{
+  font-family: Butler;
+  src: url(Butler_Bold.otf);
+}
+
+.subtitle{
+  font-size: 18pt;
+  font-family: monospace;
+  color: black;
+  bottom: 0;
+}
+
+.info{
+  font-size: 18pt;
+  font-family: monospace;
+  color: black;
+  background-color: white;
+  padding: 0px;
+}
+
+.hidden{
+  display: none;
+}
+
+#mobileInfo{
+  background-image: url("Map.jpg");
+  color: black;
+  text-align: center;
+  font-family: monospace;
+  padding: 20px;
+}
+
+#drop{
+  margin: 0;
+}
+
+#title{
+  font-family: Butler, sans-serif;
+  font-size: 120pt;
+  color: black;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 769px) {
+  .info1{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .info1{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 769px) and (orientation: landscape) {
+  #title{
+    font-size: 48pt;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #mobileInfo{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #drop{
+    display: none;
+  }
+  #title{
+    height: 280;
+    margin-left: 0%;
+    font-size: 48pt;
+  }
+  #toprightmain{
+    height: 300px;
+    font-size: 24pt;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #drop{
+    display: none;
+  }
+  #title{
+    height: 280;
+    margin-left: 0%;
+    font-size: 48pt;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  #drop{
+    height: 14%;
+  }
+  #title{
+    height: 360px;
+    margin-left: 0%;
+  }
+  #toprightmain{
+    height: 300px;
+    font-size: 24pt;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .topbar{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  #drop{
+    margin: 18%;
+  }
+  #toprightmain{
+    height: 380;
+    font-size: 28pt;
+  }
+  #title{
+    height: 500px;
+    font-size: 120pt;
+  }
+  .afo{
+    background-color: #D5FDD5;
+    height: 110px;
+    padding: 20px;
+    line-height: 60px;
+    color: black;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24pt;
+  }
+  .afoselect{
+    background-color: #004B00;
+    height: 110px;
+    padding: 20px;
+    line-height: 60px;
+    color: white;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24pt;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #drop{
+    display: none;
+  }
+  #title{
+    height: 600px;
+    font-size: 100pt;
+  }
+  #toprightmain{
+    height: 380;
+    font-size: 28pt;
+  }
+  .afo{
+    background-color: #D5FDD5;
+    height: 110px;
+    padding: 20px;
+    line-height: 60px;
+    color: black;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24pt;
+  }
+  .afoselect{
+    background-color: #004B00;
+    height: 110px;
+    padding: 20px;
+    line-height: 60px;
+    color: white;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24pt;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  #drop{
+    display: none;
+  }
+  #title{
+    height: 600px;
+    font-size: 126pt;
+  }
+  #toprightmain{
+    height: ;
+    font-size: 48pt;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+  #drop{
+    display: none;
+  }
+  #title{
+    height: 600px;
+    font-size: 140pt;
+  }
+  #toprightmain{
+    height: ;
+    font-size: 48pt;
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  #drop{
+    display: none;
+  }
+  #title{
+    height: 600px;
+    font-size: 140pt;
+  }
+  #toprightmain{
+    height: ;
+    font-size: 48pt;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .afo{
+    background-color: #D5FDD5;
+    height: 80px;
+    padding: 20px;
+    line-height: 40px;
+    color: black;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24pt;
+  }
+  .afoselect{
+    background-color: #004B00;
+    height: 80px;
+    padding: 20px;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24pt;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .afo{
+    background-color: #D5FDD5;
+    height: 110px;
+    padding: 20px;
+    line-height: 60px;
+    color: black;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24pt;
+  }
+  .afoselect{
+    background-color: #004B00;
+    height: 110px;
+    padding: 20px;
+    line-height: 60px;
+    color: white;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24pt;
+  }
+  #title{
+    margin-left: 0%;
+  }
+  #toprightmain{
+    height: 300px;
+    font-size: 24pt;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  .col-xs-4{
+  padding: 6px;
+  }
+}

@@ -1,0 +1,184 @@
+  .grid-container{
+        max-width: 1200px;
+
+    }
+
+    /*-- our cleafix hack -- */
+    .row:before,
+    .row:after {
+        content:"";
+          display: table ;
+        clear:both;
+    }
+
+    [class*='col-'] {
+        float: left;
+        min-height: 1px;
+        width: 16.66%;
+        /*-- our gutter -- */
+        padding: 12px;
+    }
+
+@media (max-width: 600px) {
+  .subtitle {
+    display: none;
+  }
+}
+
+    .col-1{ width: 16.66%; }
+    .col-2{ width: 33.33%; }
+    .col-3{ width: 50%;    }
+    .col-4{ width: 66.66%; }
+    .col-5{ width: 83.33%; }
+    .col-6{ width: 100%;   }
+
+    .outline, .outline *{
+        outline: 1px solid #F6A1A1;
+    }
+
+    /*-- some extra column content styling --*/
+    [class*='col-xs-6'] > p {
+     background-color: #004B00;
+     padding: 0;
+     margin: 0;
+     text-align: center;
+     color: white;
+    }
+
+	#tbp{
+		min-height: 100%;
+    min-width: 100%;
+		background-color: #D5FDD5;
+		color: black;
+	}
+
+	.afo {
+		background-color: #D5FDD5;
+		height: 168px;
+		padding: 20px;
+		line-height: 140px;
+		color: black;
+		text-align: center;
+		font-family: serif;
+		font-weight: bold;
+		font-size: 24pt;
+
+	}
+
+	.afoselect{
+		background-color: #004B00;
+		height: 168px;
+		padding: 20px;
+		line-height: 140px;
+		color: white;
+		text-align: center;
+		font-family: serif;
+		font-weight: bold;
+		font-size: 24pt;
+	}
+
+	#toprightmain{
+		background-color: #004B00;
+		padding: 5%;
+		margin-top: 10px;
+		text-align: center-left;
+		color: white;
+		width: 555px;
+		height: 555px;
+	}
+
+	#toprightby{
+		background-color: #004B00;
+		padding: 5%;
+		margin-top: 10px;
+		text-align: right;
+		color: white;
+		font-family: monospace;
+		font-size: 24pt:
+	}
+
+	#topright{
+		background-color: #004B00;
+		padding: 5%;
+		margin-top: 10px;
+		text-align: center-left;
+		color: white;
+		font-family: Butler;
+		font-size: 48pt;
+
+	}
+
+	#maintext1{
+		background-color: #CFCFCF;
+		text-align: left;
+		padding: 5%;
+		font-size: 14pt;
+	}
+
+	#maintext2{
+		background-color: #CFCFCF;
+		text-align: left;
+		padding: 5%;
+		font-size: 14pt;
+	}
+
+	#enter {
+		height: 34px;
+		color: white;
+		font-size: 24pt;
+		text-align: center;
+		border: 1px solid white;
+	}
+
+	#pageup {
+		height: 34px;
+		color: #004B00;
+		font-size: 24pt;
+		text-align: center;
+		margin-top: 6;
+		border: 1 px solid #004B00;
+	}
+
+	#pagedown {
+		height: 34px;
+		color: black;
+		font-size: 24pt;
+		text-align: center;
+		border: 1 px solid black;
+	}
+
+	@font-face{
+		font-family: Butler;
+		src: url(Butler_Bold.otf);
+	}
+	.subtitle{
+		font-size: 18pt;
+		font-family: monospace;
+		color: black;
+		bottom: 0;
+	}
+
+	.info{
+		font-size: 18pt;
+		font-family: monospace;
+		color: black;
+		background-color: white;
+		padding: 0px;
+	}
+
+	.info1{
+		font-size: 18pt;
+		font-family: Arial;
+		color: black;
+		background-color: white;
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	#title{
+		font-family: Butler, sans-serif;
+		font-size: 120pt;
+		color: black;
+		font-weight: bold;
+	}
